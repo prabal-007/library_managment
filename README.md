@@ -1,13 +1,13 @@
 # library_managment 
 Library Managment System/Application
 
-About
+About:
 It is a python programme designed for library managment which provides several features required to automatically manage an library managment.
 
-Requirements
+Requirements:
 python 3, time module
 
-Modes
+Modes:
 The application has two modes: 1.Admin 2.User 
 1.Admin mode : this mode provides all the functions this application can perform. To login as admin, you require an adminkey set by the admin.
 2.User mode : this mode allows only user-friendly functions i.e. Display all or currently availale books, lend books and return books.
@@ -21,7 +21,7 @@ Functions
 6. Display all lended book --> It shows books taken on lend with who has taken it.
 7. Add new books to library.
 
-Working
+Working:
 Step 0: Initallly, set up ypur library, application provides two ways to complete this step:
  0.1.Set up you library by entering your library name and initial stock of books in your library by entering total number of books and their name.(Recommanded)
                                   or
