@@ -27,6 +27,7 @@ The application has two modes: 1.Admin 2.User
 Working:
 
 Step 0: Initallly, set up ypur library, application provides two ways to complete this step:
+
  0.1.Set up you library by entering your library name and initial stock of books in your library by entering total number of books and their name.(Recommanded)
  
                                   or
