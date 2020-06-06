@@ -5,11 +5,11 @@ About :
 
 It is a python programme designed for library managment which provides several features required to automatically manage an library managment.
 
-#Requirements :
+Requirements :
 
 python 3, time module
 
-#Modes :
+Modes :
 
 The application has two modes: 1.Admin 2.User 
 1.Admin mode : this mode provides all the functions this application can perform. To login as admin, you require an adminkey set by the admin.
@@ -24,12 +24,17 @@ The application has two modes: 1.Admin 2.User
 6. Display all lended book --> It shows books taken on lend with who has taken it.
 7. Add new books to library.
 
-#Working:
+Working:
+
 Step 0: Initallly, set up ypur library, application provides two ways to complete this step:
  0.1.Set up you library by entering your library name and initial stock of books in your library by entering total number of books and their name.(Recommanded)
+ 
                                   or
+ 
  0.2.Set your library name and initail book stock directlly in programme.
+
 [NOTE: This step is performed by admin]
+
 [NOTE: Step 0 is a one time process, just to initialize. Using 0.1 you have to enter your admin details through input() and using 0.2 you directly set all admin details in programme.]
 
 Step 1:Once your library in set, enter you want to enter as admin or user.
