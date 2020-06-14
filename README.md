@@ -37,7 +37,7 @@ Step 0: Initallly, set up ypur library, application provides two ways to complet
  
                                   or
  
- 0.2.Set your library name and initail book stock directlly in programme.
+ 0.2.Set your library name and initail book stock directlly in programme code.
 
 [NOTE: This step is performed by admin]
 
