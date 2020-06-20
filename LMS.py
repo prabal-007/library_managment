@@ -1,4 +1,4 @@
-                    # LIBRARY MANAGMENT SYSTEM
+                      # LIBRARY MANAGMENT SYSTEM
 import time
 
 class library:
@@ -68,8 +68,8 @@ class library:
 #     bookstock = input()
 #     initial_book_list.append(bookstock)
 #
-# xlib = library(libname, initial_book_list, initial_book_list)
-xlib = library("xlibrary12", ["book1", "book2", "book3","book4"], ["book1", "book2", "book3","book4"])
+# xyzlib = library(libname, initial_book_list, initial_book_list)
+xyzlib = library("xlibrary12", ["book1", "book2", "book3","book4"], ["book1", "book2", "book3","book4"])
 
 
 # admin() method, for Admin functions (includes all functions)
@@ -149,7 +149,7 @@ if __name__ == '__main__':                # main() function
                     print("Invalid key!")
                 kc -= 1
         elif user == "n":
-            print(f"/////////////////////Welcome to {xlib.libraryName}//////////////////////// ")
+            print(f"/////////////////////Welcome to {xyzlib.libraryName}//////////////////////// ")
             print(userfun())
         elif user == "0":
             Exit = True
