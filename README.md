@@ -16,11 +16,12 @@ Modes :
 
 The application has two modes: 1.Admin 2.User 
 
-1.Admin mode : this mode provides all the functions this application can perform. To login as admin, you require an adminkey set by the admin.
+1.Admin mode : this mode provides all the functions this application can perform. To login as admin, you require an 
+adminkey which is automatically generated at the time of setup. It can be changed manually after the setup has completed. 
 
 2.User mode : this mode allows only user-friendly functions i.e. Display all or currently availale books, lend books and return books.
 
-#Functions
+Functions
 1. Dislay all books of library --> Shows all books library have(Even the book is currently not available).
 2. Display all available books in library --> Shows books available for lend.
 3. Lend book from library --> Borrow books from library.
@@ -28,6 +29,9 @@ The application has two modes: 1.Admin 2.User
 5. Delete books from library --> Delete books from library permanent. The books deleted from library will not display anywere, until added again. To delete books you need enter an del-key which admin set by admin while initilaizing.
 6. Display all lended book --> It shows books taken on lend with who has taken it.
 7. Add new books to library.
+8. Change keys --> With this you can change the secret key(admin key) and deletion key.
+
+NOTE: Initialy the application generates admin key and deletion key automatically. These keys are required for root access of the application.
 
 Working:
 
