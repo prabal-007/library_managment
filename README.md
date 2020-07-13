@@ -2,7 +2,7 @@
 
 About:
 
-Library Managment System/Application
+Library Managment Software/Application
 
 Description : 
 
