@@ -16,10 +16,10 @@ class library:
     def displayAllBooks(self):
         print(self.allBooks)
 
-    def displayBooks(self):                       # to display available books
+    def displayBooks(self):                       # to display all available books
         return print(self.list_of_books)
 
-    def lendBook(self):                                   # to lend books
+    def lendBook(self):                                   # to lend books 
         lenderName = input("Enter your name : ")
         lendBook = input("Enter book you want to lend : ")
         if lendBook in self.list_of_books:
