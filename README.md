@@ -10,7 +10,7 @@ It is a python programme designed for library managment which provides several f
 
 Requirements :
 
-python 3, time module
+python 3, time module.
 
 Modes :
 
