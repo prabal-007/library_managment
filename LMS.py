@@ -2,7 +2,6 @@
 import time
 import random
 
-
 class library:
     secret_key = random.randint(1000, 9999)             # to get admin access
     delkey = random.randint(100, 999)                   # to get permission for deletion
@@ -216,7 +215,7 @@ if __name__ == '__main__':                # main function
             Exit = True
             continue
         else:
-            print("Please answer in y(yes) or n(no)")
+            print("Please answer in y for 'yes' or n for 'no' ")
 
 
 
