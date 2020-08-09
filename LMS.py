@@ -1,11 +1,11 @@
-                    # LIBRARY MANAGMENT SYSTEM
+                     # LIBRARY MANAGMENT SYSTEM
 import time
 import random
 
 
 class library:
-    secret_key = random.randint(1000, 9999)             # to get admin access
-    delkey = random.randint(100, 999)                   # to get permission for deletion
+    secret_key = random.randint(1000, 9999)              # to get admin access
+    delkey = random.randint(100, 999)                    # to get permission for deletion
 
     def __init__(self, libraryName, allBooks, listOfBooks):
         self.lendbooklis = {}
@@ -16,10 +16,10 @@ class library:
     def displayAllBooks(self):
         print(self.allBooks)
 
-    def displayBooks(self):                       # to display all available books
+    def displayBooks(self):                         # to display all available books
         return print(self.list_of_books)
 
-    def lendBook(self):                                   # to lend books 
+    def lendBook(self):                                    # to lend books 
         lenderName = input("Enter your name : ")
         lendBook = input("Enter book you want to lend : ")
         if lendBook in self.list_of_books:
@@ -99,7 +99,7 @@ class library:
                 continue
 
 
-# admin() method, for Admin functions (includes all functions)
+#  admin() method, for Admin functions (includes all functions)
 def admin():
     print("\tDisplay all available books --> 1\tLend book --> 2\n\tDisplay lended books --> 3\t\t\tAdd new book --> 4"
           "\n\tReturn a book --> 5\t\t\t\t\tRemove book --> 6\n\tDisplay All books --> 7"
@@ -136,7 +136,7 @@ def admin():
     except Exception as e:
         print(e)
 
-# userfun() method, for user functions (allows display, lend & return books)
+#  userfun() method, for user functions (allows display, lend & return books)
 def userfun():
     print("  Display all available books --> 1\t\t\tLend book --> 2\n\t\t    Display all books --> 4\t"
           "\tReturn a book --> 3\nExit --> 0")
@@ -182,9 +182,9 @@ while exit is not True:
         continue
     else:
         break
-# xlib = library(libname, allBooks, initial_book_list)
+#  xlib = library(libname, allBooks, initial_book_list)
 
-# xlib = library("xlibrary12", ["book1", "book2", "book3","book4"], ["book1", "book2", "book3","book4"])
+#  xlib = library("xlibrary12", ["book1", "book2", "book3","book4"], ["book1", "book2", "book3","book4"])
 
 
 lib2 = library.secret_key              # secret key object
