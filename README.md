@@ -19,10 +19,10 @@ The application has two modes: 1.Admin 2.User
 1.Admin mode : this mode provides all the functions this application can perform. To login as admin, you require an 
 adminkey which is automatically generated at the time of setup. It can be changed manually after the setup has completed. 
 
-2.User mode : this mode allows only user-friendly functions i.e. Display all and currently availale books, lend books and return books.
+2.User mode : this mode allows only user-friendly functions i.e. Display all and currently availale books, lend books and return books. 
 
 Functions
-1. Dislay all books of library --> Shows all books library have(Even the book is currently not available).
+1. Dislay all books of library --> Shows all books that library have(Even if the book is currently not available).
 2. Display all available books in library --> Shows books available for lend.
 3. Lend book from library --> Borrow books from library.
 4. Return the lend book.
