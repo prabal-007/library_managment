@@ -1,5 +1,4 @@
-                     # LIBRARY MANAGMENT SYSTEM
-  
+                     # LIBRARY MANAGMENT SYSTEM 
 import time
 import random
 
@@ -99,7 +98,7 @@ class library:
                 continue
 
 
-#  admin() method, for Admin functions (includes all functions)
+# admin() method, for Admin functions (includes all functions)
 def admin():
     print("\tDisplay all available books --> 1\tLend book --> 2\n\tDisplay lended books --> 3\t\t\tAdd new book --> 4"
           "\n\tReturn a book --> 5\t\t\t\t\tRemove book --> 6\n\tDisplay All books --> 7"
