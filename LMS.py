@@ -97,7 +97,6 @@ class library:
                 count -= 1
                 continue
 
-
 # admin() method, for Admin functions (includes all functions)
 def admin():
     print("\tDisplay all available books --> 1\tLend book --> 2\n\tDisplay lended books --> 3\t\t\tAdd new book --> 4"
@@ -106,7 +105,6 @@ def admin():
     choice = int(input("Enter your choice : "))
     Exit = False
     try:
-
         while Exit is not True:
             if choice == 0:
                 localtime = time.asctime(time.localtime(time.time()))
@@ -191,7 +189,6 @@ lib2 = library.secret_key              # secret key object
 
 
 if __name__ == '__main__':                # main function
-
     localtime = time.asctime(time.localtime(time.time()))
     print(f"{localtime}\t\t\t\t\t\t\tExit --> 0")
     Exit = False
