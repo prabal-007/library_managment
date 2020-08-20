@@ -1,4 +1,5 @@
-                     # LIBRARY MANAGMENT SYSTEM 
+                     # LIBRARY MANAGMENT SYSTEM
+  
 import time
 import random
 
@@ -156,7 +157,6 @@ def userfun():
             print("Invalid choice")
         choice = int(input("Enter your choice : "))
 
-
 exit = False
 while exit is not True:
     libname = input("Enter your library name : ")
@@ -185,7 +185,6 @@ while exit is not True:
 
 
 lib2 = library.secret_key              # secret key object
-
 
 
 if __name__ == '__main__':                # main function
