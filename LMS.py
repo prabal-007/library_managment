@@ -16,7 +16,7 @@ class library:
     def displayAllBooks(self):
         print(self.allBooks)
 
-    def displayBooks(self):                        # to display all available books
+    def displayBooks(self):                         # to display all available books
         return print(self.list_of_books)
 
     def lendBook(self):                                   # to lend books 
@@ -30,7 +30,7 @@ class library:
             print(f"Book '{lendBook}' is currently not available")
 
 
-    def displaylendedbook(self):                         # lend books info
+    def displaylendedbook(self):                          # lend books info
         return print(self.lendbooklis)
 
     def addBook(self):                                         # to add new boos to library
@@ -182,7 +182,6 @@ while exit is not True:
 #  xlib = library(libname, allBooks, initial_book_list)
 
 #  xlib = library("xlibrary12", ["book1", "book2", "book3","book4"], ["book1", "book2", "book3","book4"])
-
 
 lib2 = library.secret_key              # secret key object
 
