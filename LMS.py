@@ -1,5 +1,4 @@
                      # LIBRARY MANAGMENT SYSTEM
-  
 import time
 import random
 
@@ -19,7 +18,7 @@ class library:
     def displayBooks(self):                         # to display all available books
         return print(self.list_of_books)
 
-    def lendBook(self):                                   # to lend books 
+    def lendBook(self):                                 # to lend books 
         lenderName = input("Enter your name : ")
         lendBook = input("Enter book you want to lend : ")
         if lendBook in self.list_of_books:
@@ -30,15 +29,15 @@ class library:
             print(f"Book '{lendBook}' is currently not available")
 
 
-    def displaylendedbook(self):                          # lend books info
+    def displaylendedbook(self):                         # lend books info
         return print(self.lendbooklis)
 
-    def addBook(self):                                         # to add new boos to library
+    def addBook(self):                                       # to add new boos to library
         addbok = input("Enter the book you want to add : ")
         self.list_of_books.append(addbok)
         self.allBooks.append(addbok)
 
-    def returnBook(self):                                     # to return a lend book
+    def returnBook(self):                                    # to return a lend book
         retname = input("Enter your name : ")
         retbok = input("Enter book you want to return : ")
         self.list_of_books.append(retbok)
