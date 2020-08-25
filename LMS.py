@@ -29,10 +29,10 @@ class library:
             print(f"Book '{lendBook}' is currently not available")
 
 
-    def displaylendedbook(self):                          # lend books info
+    def displaylendedbook(self):                             # lend books info
         return print(self.lendbooklis)
 
-    def addBook(self):                                     # to add new boos to library
+    def addBook(self):                                       # to add new boos to library
         addbok = input("Enter the book you want to add : ")
         self.list_of_books.append(addbok)
         self.allBooks.append(addbok)
@@ -43,7 +43,7 @@ class library:
         self.list_of_books.append(retbok)
         self.lendbooklis.pop(retname)
 
-    def removeBook(self):                                  # to delete books from libraby permanently
+    def removeBook(self):                                    # to delete books from libraby permanently
         count = 2
         while (count > 0):
             rmvkey = input("Enter 'Deletion-key' = ")
@@ -181,7 +181,7 @@ while exit is not True:
 
 #  xlib = library("xlibrary12", ["book1", "book2", "book3","book4"], ["book1", "book2", "book3","book4"])
 
-lib2 = library.secret_key                # secret key object
+lib2 = library.secret_key                 # secret key object
 
 if __name__ == '__main__':                # main function
     localtime = time.asctime(time.localtime(time.time()))
