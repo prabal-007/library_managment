@@ -28,7 +28,6 @@ class library:
         else:
             print(f"Book '{lendBook}' is currently not available")
 
-
     def displaylendedbook(self):                            # lend books info
         return print(self.lendbooklis)
 
