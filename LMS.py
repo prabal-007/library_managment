@@ -1,5 +1,4 @@
                         # LIBRARY MANAGMENT SYSTEM
-  
 import time
 import random
 
@@ -18,7 +17,7 @@ class library:
 
     def displayBooks(self):                          # to display all available books
         return print(self.list_of_books)
-
+ 
     def lendBook(self):                              # to lend books 
         lenderName = input("Enter your name : ")
         lendBook = input("Enter book you want to lend : ")
