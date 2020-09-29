@@ -28,10 +28,10 @@ class library:
         else:
             print(f"Book '{lendBook}' is currently not available")
 
-    def displaylendedbook(self):                            # lend books info
+    def displaylendedbook(self):                             # lend books info
         return print(self.lendbooklis)
 
-    def addBook(self):                                      # to add new boos to library
+    def addBook(self):                                       # to add new boos to library
         addbok = input("Enter the book you want to add : ")
         self.list_of_books.append(addbok)
         self.allBooks.append(addbok)
