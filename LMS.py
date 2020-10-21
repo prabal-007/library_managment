@@ -1,4 +1,4 @@
-                       # LIBRARY MANAGMENT SYSTEM
+                    # LIBRARY MANAGMENT SYSTEM
 import time
 import random
 
@@ -131,6 +131,7 @@ def admin():
     except Exception as e:
         print(e)
 
+
 # userfun() method, for user functions (allows display, lend & return books)
 def userfun():
     print("  Display all available books --> 1\t\t\tLend book --> 2\n\t\t    Display all books --> 4\t"
@@ -207,3 +208,5 @@ if __name__ == '__main__':                # main function
             continue
         else:
             print("Please answer in y for 'yes' or n for 'no' ")
+
+Ok
