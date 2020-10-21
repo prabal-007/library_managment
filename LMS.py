@@ -1,4 +1,4 @@
-                    # LIBRARY MANAGMENT SYSTEM
+                   # LIBRARY MANAGMENT SYSTEM
 import time
 import random
 
@@ -208,5 +208,3 @@ if __name__ == '__main__':                # main function
             continue
         else:
             print("Please answer in y for 'yes' or n for 'no' ")
-
-Ok
