@@ -13,7 +13,7 @@ Requirements :
 python 3, time module.
 
 Modes :
-
+ 
 The application has two modes: 1.Admin 2.User 
 
 1.Admin mode : this mode provides all the functions this application can perform. To login as admin, you require an 
