@@ -36,13 +36,13 @@ class library:
         self.list_of_books.append(addbok)
         self.allBooks.append(addbok)
 
-    def returnBook(self):                                     # to return a lend book
+    def returnBook(self):                                      # to return a lend book
         retname = input("Enter your name : ")
         retbok = input("Enter book you want to return : ")
         self.list_of_books.append(retbok)
         self.lendbooklis.pop(retname)
 
-    def removeBook(self):                                    # to delete books from libraby permanently
+    def removeBook(self):                                     # to delete books from libraby permanently
         count = 2
         while (count > 0):
             rmvkey = input("Enter 'Deletion-key' = ")
